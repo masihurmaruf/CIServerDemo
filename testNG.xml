@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Heatclinic Tests" >
+	
+	<test name="Heatclinic Test">
+		<classes>
+			<class name="com.paxotech.qa.scripts.HeatClinicTest"/>
+		</classes>
+	</test>
+	<test name="Heatclinic Test2">
+		<classes>
+			<class name="com.paxotech.qa.scripts.HeatClinicTest2"/>
+		</classes>
+	</test>
+	
+</suite>
