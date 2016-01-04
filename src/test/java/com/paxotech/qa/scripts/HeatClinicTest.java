@@ -24,14 +24,14 @@ public class HeatClinicTest extends ScriptBase{
 
 	
 	@Test
-	public void test1(){
+	public void fillInRegiterFormTest(){
 		heatClinic().pageHeader().heatclinicRegisterPage();
 		heatClinic().registerPage().registerPage("marufrahamn1349@yahoo.com", "Masihur", "Maruf", "maruf", "maruf");
 		heatClinic().registerPage().registerPageSubmit();
 		
 	}
 	@Test
-	public void test2(){
+	public void broadleafCommerceLinkTest(){
 		heatClinic().pageFooter().broadleafCommerceLinkHover();
 		heatClinic().pageFooter().broadleafCommerceLink();
 		

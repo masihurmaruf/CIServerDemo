@@ -10,7 +10,7 @@ public class HeatClinicTest2 extends ScriptBase{
 	
 
 	@Test
-	public void test() {
+	public void loginFunctionality() {
 		String title = driver.getTitle();
 
 		WebElement elementLogIn = driver
